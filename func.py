@@ -41,7 +41,7 @@ def convert2CSV(namespace, source_bucket, target_bucket, object_name):
 
         logging.info('FUNCTION:GETFILES BEGIN...')
 
-        # create local directory
+        # create local  directory
         if not os.path.exists(report_path):
             os.mkdir(report_path)
 
