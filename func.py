@@ -33,7 +33,7 @@ def convert2CSV(namespace, source_bucket, target_bucket, object_name):
     object_storage = oci.object_storage.ObjectStorageClient({}, signer=signer)
 
     try:
-        #set variables
+        #set variables.
         report_path = '/tmp/source_files'   #local temp storage to save the file before upload to object storage
 
         # extract filename without extension
